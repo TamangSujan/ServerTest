@@ -8,6 +8,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class URL {
     @GetMapping("/")
     public String home(){
-        return "Git Jenkins Tomcat Integration - Checking sudo with password";
+        return "Git Jenkins Tomcat Integration";
     }
 }
